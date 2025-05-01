@@ -7,10 +7,12 @@ const MainFooter = () => {
         <footer>
             <div className='max-w-7xl mx-auto px-4 py-8 border-t border-foreground/25'>
                 <div className='flex flex-row justify-between items-center'>
-                    <p>Parrow Horrizon Studio - {new Date().getFullYear()}</p>
+                    <p>
+                        Coding Challenge from First Mate Technologies - May 2025
+                    </p>
                     <div>
                         <Link
-                            href='https://github.com/Rowee13/phs-nextjs-starter/tree/master'
+                            href='https://github.com/Rowee13/slack-message-sender'
                             passHref
                             target='_blank'
                             rel='noopener noreferrer'

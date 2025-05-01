@@ -1,6 +1,5 @@
 export const siteConfig = {
-    title: 'PHS NextJS Starter',
-    description:
-        'A NextJS starter template created for Parrow Horrizon Studio.',
-    url: 'https://phs-next-starter.parrowhorrizonstudio.com',
+    title: 'Slack Message Sender',
+    description: 'A coding challenge from First Mate Technologies',
+    url: 'https://slack-message-sender.vercel.app',
 }

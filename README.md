@@ -9,7 +9,7 @@ Made for [Parrow Horrizon Studio](https://parrowhorrizonstudio.com)
 ## Features
 
 This repo is setup based on personal preference.
-<br />(note: this repo is not yet done and still ongoing development)
+<br />(note: this repo is not yet done and still continuously updating)
 
 - Next JS 15 App Router
 - React 19
@@ -21,10 +21,3 @@ This repo is setup based on personal preference.
 - Snippets - A collection of useful snippets
 - Zod - Form Validation
 - React Hook Form
-
-## Select your branch
-
-To make a separate template for different use cases, branches are created. <br />(note: this repo is not yet done and still ongoing development)
-
-- Base - for clean starter without ui libraries but has ESLint, Prettier setup and a simple initial layout with header, main, and footer components.
-- Master - this is a standard template used by Parrow Horrizon Studio for blog website
