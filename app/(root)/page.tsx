@@ -6,7 +6,7 @@ export default function Home() {
             <div className='relative px-6 pt-8 lg:px-8'>
                 <div className='max-w-4xl mx-auto'>
                     <div className='text-center'>
-                        <h1 className='text-4xl md:text-5xl bg-gradient-to-r from-primary to-cyan-500 bg-clip-text font-extrabold text-transparent h-14'>
+                        <h1 className='text-4xl md:text-5xl bg-gradient-to-r from-primary to-cyan-500 bg-clip-text font-extrabold text-transparent'>
                             Delay Sending Your Message to Slack
                         </h1>
                         <p className='mt-6 text-pretty text-lg font-medium text-gray-500 sm:text-xl/8'>
