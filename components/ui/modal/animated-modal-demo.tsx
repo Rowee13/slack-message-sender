@@ -43,7 +43,7 @@ export function AnimatedModalDemo() {
                         <div className='flex justify-center items-center'>
                             {images.map((image, idx) => (
                                 <motion.div
-                                    key={'images' + idx}
+                                    key={`images-${idx}`}
                                     style={{
                                         rotate: Math.random() * 20 - 10,
                                     }}
