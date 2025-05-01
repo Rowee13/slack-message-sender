@@ -25,8 +25,17 @@
     --color-primary-900: rgb(var(--tw-color-primary-900));
 }
 
+html,
+body {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
 body {
     font-family: Helvetica, Arial, sans-serif;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 @layer base {

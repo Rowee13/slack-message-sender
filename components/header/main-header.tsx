@@ -6,8 +6,8 @@ import DarkModeButton from '@/components/ui/buttons/dark-mode-btn'
 
 const MainHeader = () => {
     return (
-        <header>
-            <div className='max-w-7xl mx-auto flex flex-row justify-between items-center px-4 py-8 z-50'>
+        <header className='sticky top-0 bg-background z-10'>
+            <div className='max-w-7xl mx-auto flex flex-row justify-between items-center px-4 py-4'>
                 <div>
                     <Link
                         href='/'

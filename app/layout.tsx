@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import { Bebas_Neue, Outfit } from 'next/font/google'
 
+import { Toaster } from 'react-hot-toast'
+
 import { ThemeProvider } from '@/components/theme-provider'
 
 import { siteConfig } from '@/constant/config'
@@ -33,17 +35,25 @@ export default function RootLayout({
     children: React.ReactNode
 }>) {
     return (
-        <html lang='en' suppressHydrationWarning={true}>
+        <html lang='en' suppressHydrationWarning={true} className='h-full'>
             <body
-                className={`${bebasNeue.variable} ${outfit.variable} antialiased`}
+                className={`${bebasNeue.variable} ${outfit.variable} antialiased h-full`}
             >
                 <ThemeProvider
                     attribute='class'
-                    defaultTheme='light'
-                    enableSystem
+                    defaultTheme='dark'
+                    enableSystem={false}
                     disableTransitionOnChange
                 >
                     {children}
+                    <Toaster
+                        position='top-right'
+                        toastOptions={{
+                            success: {
+                                duration: 4000,
+                            },
+                        }}
+                    />
                 </ThemeProvider>
             </body>
         </html>

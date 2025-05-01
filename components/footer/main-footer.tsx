@@ -4,10 +4,10 @@ import { FaGithub } from 'react-icons/fa'
 
 const MainFooter = () => {
     return (
-        <footer>
-            <div className='max-w-7xl mx-auto px-4 py-8 border-t border-foreground/25'>
+        <footer className='mt-auto'>
+            <div className='max-w-7xl mx-auto px-4 py-4 border-t border-foreground/10'>
                 <div className='flex flex-row justify-between items-center'>
-                    <p>
+                    <p className='text-sm text-muted-foreground'>
                         Coding Challenge from First Mate Technologies - May 2025
                     </p>
                     <div>
